@@ -21,20 +21,8 @@ hottest_city.sh script uses GetCurrentWeather C# application to get the current 
 •	calls to GetCurrentWeather C# app are made in parallel <br>
 •	for the cities for which C# application returned with non-zero exit status code an error line is printed - "Could not pull the weather info for {city}." <br>
 •	a path to GetCurrentWeather C# application binary is passed via environment variable GET_CURRENT_WEATHER_BIN <br>
-•	script accept a list of city names on standard input in the following form: <br>
-cities.txt: <br>
-Amsterdam <br>
-London <br>
-Torun <br>
-New York <br>
-
+•	script accept a list of city names on standard input 
 •	the output format: <br>
-$ ./hottest_city.sh <cities.txt <br>
-Three hottest cities are: <br>
-1. London (14.5C) <br>
-2. Amsterdam (12C) <br>
-3. New York (0C) <br>
-$ <br>
 
 ![plot](./ex.jpg)
 
