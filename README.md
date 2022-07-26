@@ -1,4 +1,7 @@
 # HottestCities
+
+Used Visual Studion 2022, 6.0 NET to create this app. Includes solution , classes and bin. <br>
+
 ## C# Application
 GetCurrentWeather C# console application for getting current weather
 The program pulls the weather information for a single given city from OpenWeather API (https://openweathermap.org/current).
