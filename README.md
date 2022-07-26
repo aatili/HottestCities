@@ -19,9 +19,9 @@ city|temp|wind_speed|humidity|pressure <br>
 ## Bash script
 hottest_city.sh script uses GetCurrentWeather C# application to get the current weather information for given list of cities and output 3 hottest city names and their temperature right now. <br>
 •	calls to GetCurrentWeather C# app are made in parallel <br>
-•	for the cities for which C# application returned with non-zero exit status code an error line is printed - "Could not pull the weather info for {city}." <br>
+•	for the cities for which C# application returned with non-zero exit status code an error line is printed<br>
 •	a path to GetCurrentWeather C# application binary is passed via environment variable GET_CURRENT_WEATHER_BIN <br>
-•	script accept a list of city names on standard input 
+•	script accept a list of city names on standard input  <br>
 •	the output format: <br>
 
 ![plot](./ex.jpg)
