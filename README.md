@@ -5,8 +5,8 @@ The program pulls the weather information for a single given city from OpenWeath
 •	the program reads OpenWeather API key from environment variable OPENWEATHER_API_KEY <br>
 (You can sign up and acquire an API key on the openweathermap to call current weather information endpoints) <br>
 •	the program accepts the following command line options: <br>
-  o	--city or -c with a city argument after that e.g. --city Torun (the application exits with a non-zero exit code if no city was passed.) <br>
-  o	--units or -u with a units type argument (can be imperial or metric, default is metric. For unknown values the application exits with a non-zero exit code.) <br>
+  <t>o	--city or -c with a city argument after that e.g. --city Torun (the application exits with a non-zero exit code if no city was passed.) <br>
+  <t>o	--units or -u with a units type argument (can be imperial or metric, default is metric. For unknown values the application exits with a non-zero exit code.) <br>
 •	if a city cannot be found the application exits with a non-zero exit code <br>
 •	the program outputs following format: <br>
 $ ./GetCurrentWeather --city London --units metric <br>
@@ -15,8 +15,8 @@ city|temp|wind_speed|humidity|pressure <br>
 
 ## Bash script
 hottest_city.sh script uses GetCurrentWeather C# application to get the current weather information for given list of cities and output 3 hottest city names and their temperature right now. <br>
-•	calls to GetCurrentWeather C# app are made in parallel
-•	for the cities for which C# application returned with non-zero exit status code an error line is printed - "Could not pull the weather info for {city}."
+•	calls to GetCurrentWeather C# app are made in parallel <br>
+•	for the cities for which C# application returned with non-zero exit status code an error line is printed - "Could not pull the weather info for {city}." <br>
 •	a path to GetCurrentWeather C# application binary is passed via environment variable GET_CURRENT_WEATHER_BIN <br>
 •	script accept a list of city names on standard input in the following form: <br>
 cities.txt: <br>
