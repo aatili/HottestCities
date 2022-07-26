@@ -5,8 +5,8 @@ The program pulls the weather information for a single given city from OpenWeath
 •	the program reads OpenWeather API key from environment variable OPENWEATHER_API_KEY <br>
 (You can sign up and acquire an API key on the openweathermap to call current weather information endpoints) <br>
 •	the program accepts the following command line options: <br>
-  <t>o	--city or -c with a city argument after that e.g. --city Torun (the application exits with a non-zero exit code if no city was passed.) <br>
-  <t>o	--units or -u with a units type argument (can be imperial or metric, default is metric. For unknown values the application exits with a non-zero exit code.) <br>
+  <pre>   </pre>o	--city or -c with a city argument after that e.g. --city Torun (the application exits with a non-zero exit code if no city was passed.) <br>
+ <pre>   </pre>o	--units or -u with a units type argument (can be imperial or metric, default is metric. For unknown values the application exits with a non-zero exit code.) <br>
 •	if a city cannot be found the application exits with a non-zero exit code <br>
 •	the program outputs following format: <br>
 $ ./GetCurrentWeather --city London --units metric <br>
@@ -25,12 +25,12 @@ London <br>
 Torun <br>
 New York <br>
 
-•	the output format:
-$ ./hottest_city.sh <cities.txt
-Three hottest cities are:
-1. London (14.5C)
-2. Amsterdam (12C)
-3. New York (0C)
+•	the output format: <br>
+$ ./hottest_city.sh <cities.txt <br>
+Three hottest cities are: <br>
+1. London (14.5C) <br>
+2. Amsterdam (12C) <br>
+3. New York (0C) <br>
 $
 
 
