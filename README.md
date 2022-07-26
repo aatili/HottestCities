@@ -3,8 +3,8 @@
 Used Visual Studion 2022, 6.0 NET to create this app. Includes solution , classes and bin. <br>
 
 ## C# Application
-GetCurrentWeather C# console application for getting current weather
-The program pulls the weather information for a single given city from OpenWeather API (https://openweathermap.org/current).
+GetCurrentWeather C# console application for getting current weather <br>
+The program pulls the weather information for a single given city from OpenWeather API (https://openweathermap.org/current).<br>
 •	the program reads OpenWeather API key from environment variable OPENWEATHER_API_KEY <br>
 (You can sign up and acquire an API key on the openweathermap to call current weather information endpoints) <br>
 •	the program accepts the following command line options: <br>
