@@ -1,0 +1,15 @@
+C:\Users\xo93\source\repos\GetCurrentWeather\GetCurrentWeather\bin\Debug\net6.0\GetCurrentWeather.exe
+C:\Users\xo93\source\repos\GetCurrentWeather\GetCurrentWeather\bin\Debug\net6.0\GetCurrentWeather.deps.json
+C:\Users\xo93\source\repos\GetCurrentWeather\GetCurrentWeather\bin\Debug\net6.0\GetCurrentWeather.runtimeconfig.json
+C:\Users\xo93\source\repos\GetCurrentWeather\GetCurrentWeather\bin\Debug\net6.0\GetCurrentWeather.dll
+C:\Users\xo93\source\repos\GetCurrentWeather\GetCurrentWeather\bin\Debug\net6.0\GetCurrentWeather.pdb
+C:\Users\xo93\source\repos\GetCurrentWeather\GetCurrentWeather\obj\Debug\net6.0\GetCurrentWeather.csproj.AssemblyReference.cache
+C:\Users\xo93\source\repos\GetCurrentWeather\GetCurrentWeather\obj\Debug\net6.0\GetCurrentWeather.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\xo93\source\repos\GetCurrentWeather\GetCurrentWeather\obj\Debug\net6.0\GetCurrentWeather.AssemblyInfoInputs.cache
+C:\Users\xo93\source\repos\GetCurrentWeather\GetCurrentWeather\obj\Debug\net6.0\GetCurrentWeather.AssemblyInfo.cs
+C:\Users\xo93\source\repos\GetCurrentWeather\GetCurrentWeather\obj\Debug\net6.0\GetCurrentWeather.csproj.CoreCompileInputs.cache
+C:\Users\xo93\source\repos\GetCurrentWeather\GetCurrentWeather\obj\Debug\net6.0\GetCurrentWeather.dll
+C:\Users\xo93\source\repos\GetCurrentWeather\GetCurrentWeather\obj\Debug\net6.0\refint\GetCurrentWeather.dll
+C:\Users\xo93\source\repos\GetCurrentWeather\GetCurrentWeather\obj\Debug\net6.0\GetCurrentWeather.pdb
+C:\Users\xo93\source\repos\GetCurrentWeather\GetCurrentWeather\obj\Debug\net6.0\GetCurrentWeather.genruntimeconfig.cache
+C:\Users\xo93\source\repos\GetCurrentWeather\GetCurrentWeather\obj\Debug\net6.0\ref\GetCurrentWeather.dll
