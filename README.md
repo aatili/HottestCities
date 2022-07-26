@@ -5,8 +5,8 @@ The program pulls the weather information for a single given city from OpenWeath
 •	the program reads OpenWeather API key from environment variable OPENWEATHER_API_KEY <br>
 (You can sign up and acquire an API key on the openweathermap to call current weather information endpoints) <br>
 •	the program accepts the following command line options: <br>
- &nbsp;o--city or -c with a city argument after that e.g. --city Torun (the application exits with a non-zero exit code if no city was passed.) <br>
- &nbsp;o	--units or -u with a units type argument (can be imperial or metric, default is metric. For unknown values the application exits with a non-zero exit code.) <br>
+ &nbsp;&nbsp;I.--city or -c with a city argument after that e.g. --city Torun (the application exits with a non-zero exit code if no city was passed.) <br>
+ &nbsp;&nbsp;II.	--units or -u with a units type argument (can be imperial or metric, default is metric. For unknown values the application exits with a non-zero exit code.) <br>
 •	if a city cannot be found the application exits with a non-zero exit code <br>
 •	the program outputs following format: <br>
 $ ./GetCurrentWeather --city London --units metric <br>
