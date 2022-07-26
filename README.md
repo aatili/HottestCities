@@ -35,5 +35,5 @@ Three hottest cities are: <br>
 2. Amsterdam (12C) <br>
 3. New York (0C) <br>
 $
-
+![plot](./ex.jpg)
 
